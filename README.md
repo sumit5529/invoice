@@ -24,6 +24,7 @@ Then install the dependencies:
 Once `pip` has finished downloading the dependencies:
 ```sh
 (env)$ cd invoice
-(env)$ python manage.py runserver
+(env)$ python manage.py runserver and go to `http://127.0.0.1:8000/admin`
+(env)$ python manage.py test 
 ```
 And navigate to `http://127.0.0.1:8000`.
