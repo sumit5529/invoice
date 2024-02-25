@@ -1,6 +1,6 @@
 # invoices/views.py
 from rest_framework import viewsets
-from .models import Invoice, InvoiceDetail
+from .models import Invoice
 from .serializers import InvoiceSerializer
 
 class InvoiceViewSet(viewsets.ModelViewSet):

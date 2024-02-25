@@ -5,7 +5,7 @@ from .views import InvoiceViewSet
 
 router = DefaultRouter()
 router.register(r'invoices', InvoiceViewSet, basename='invoices')
-
+# it will adjust url by itself
 urlpatterns = [
     path('', include(router.urls)),
 ]

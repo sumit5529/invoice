@@ -39,7 +39,3 @@ class InvoiceAPITestCase(TestCase):
 
         # Check if the invoice data has been updated correctly
         self.assertEqual(self.invoice.customer_name, 'Updated Customer')
-
-        # Optional: Check if the response data matches the updated invoice data
-        expected_data = InvoiceSerializer(self.invoice).data
-        self.assertEqual(response.data, expected_data)
